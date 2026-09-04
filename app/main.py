@@ -1,4 +1,4 @@
-from app.routers.product_router import product_router
+from fastapi import FastAPI
 
 from app.database import Base, engine
 from app.models.product import Product  # noqa: F401
